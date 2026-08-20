@@ -253,14 +253,14 @@
         q1_sub: {
             tag: "STAGE 1-B",
             title: "🛡️ 장비 수급 점검",
-            question: "평가 시간에 PC 대여나 별도 사용 준비가 가능한가요?",
+            question: "지필평가 시간에 PC를 빌려온다거나 별도로 사용 준비가 가능한가요?",
             yes: "q2",
             no: "fail_device"
         },
         q2: {
             tag: "STAGE 2",
             title: "🔮 독립 공간 점검",
-            question: "시험 시간 동안 서로 가까이에서 보지 않는 독립된 공간에서 응시하나요?",
+            question: "시험 시간 동안 서로 가까이에서 답을 볼 수 없는 독립된 공간에서 응시하나요?",
             yes: "pass",
             no: "fail_room"
         },
@@ -274,13 +274,13 @@
             tag: "QUEST FAILED",
             title: "🚨 지필평가 진행 곤란 (기기 미비)",
             type: "fail",
-            text: "<strong>시험용 PC/카메라 사용이 불가능합니다.</strong><br>즉시 담임선생님께 연락해 학교 기기 대여를 요청하세요."
+            text: "<strong>시험용 PC/카메라 사용이 불가능합니다.</strong><br>즉시 학교 선생님께 연락해 학교 기기 대여를 요청하세요."
         },
         fail_room: {
             tag: "QUEST FAILED",
             title: "🚨 지필평가 진행 곤란 (공간 미비)",
             type: "fail",
-            text: "<strong>독립된 응시 공간 확보가 어렵습니다.</strong><br>즉시 담임선생님께 연락해 학교 내 별도 시험실 배정을 상담하세요."
+            text: "<strong>독립된 응시 공간 확보가 어렵습니다.</strong><br>즉시 학교 선생님께 연락해 학교 내 별도 시험실 배정을 상담하세요."
         }
     };
 
